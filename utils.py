@@ -8,3 +8,5 @@ def divide ( a: int , b: int) -> float :
     return a / b
 def jedynka():
     return 1
+def dwojka():
+    return 2
