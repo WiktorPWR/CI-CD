@@ -26,7 +26,7 @@ jobs:
 
     - name: Test with Pytest
       run: |
-        pytest ./CI-CD/tests_examples.py
+        pytest D:\Pulpit\PWR\Praaktyka_programowania\CI-CD\tests_examples.py
 
     - name: Lint with Pylint
       run: |
