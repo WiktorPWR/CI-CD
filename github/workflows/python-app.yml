@@ -22,7 +22,7 @@ jobs :
         pytest
     - name : Lint with Pylint
       run : |
-        pylint D:\Pulpit\PWR\Praaktyka_programowania\CI-CD\utils.py
+        pylint D:/Pulpit/PWR/Praaktyka_programowania/CI-CD/utils.py
     - name : Format with Black
       run : |
         black -- check .
