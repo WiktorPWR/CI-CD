@@ -26,11 +26,11 @@ jobs:
 
     - name: Test with Pytest
       run: |
-        pytest
+        pytest ./CI-CD/tests_examples.py
 
     - name: Lint with Pylint
       run: |
-        pylint D:/Pulpit/PWR/Praaktyka_programowania/CI-CD/utils.py  # OK, ale lepiej uogólnić
+        pylint ./CI-CD/utils.py  # OK, ale lepiej uogólnić
 
     - name: Format with Black
       run: |
