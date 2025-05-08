@@ -1,12 +1,22 @@
-def add ( a: int , b: int) -> int:
+def add(a: int, b: int) -> int:
     return a + b
-def subtract ( a: int , b: int) -> int:
+
+
+def subtract(a: int, b: int) -> int:
     return a - b
-def multiply ( a: int , b: int) -> int:
+
+
+def multiply(a: int, b: int) -> int:
     return a * b
-def divide ( a: int , b: int) -> float :
+
+
+def divide(a: int, b: int) -> float:
     return a / b
+
+
 def jedynka():
     return 1
+
+
 def dwojka():
     return 2
