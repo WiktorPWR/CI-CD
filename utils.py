@@ -1,23 +1,21 @@
-import string
-def add(a: int, b: int) -> int:
-    return a + b
+"Podstawowe opracje matematycze"
 
 
-def subtract(a: int, b: int) -> int:
-    return a - b
+def add(liczba_pierwsza: int, liczba_druga: int) -> int:
+    """Function printing adding"""
+    return liczba_pierwsza + liczba_druga
 
 
-def multiply(a: int, b: int) -> int:
-    return a * b
+def subtract(liczba_pierwsza: int, liczba_druga: int) -> int:
+    """Function printing subtract"""
+    return liczba_pierwsza - liczba_druga
 
 
-def divide(a: int, b: int) -> float:
-    return a / b
+def multiply(liczba_pierwsza: int, liczba_druga: int) -> int:
+    """Function printing miltiply"""
+    return liczba_pierwsza * liczba_druga
 
 
-def jedynka():
-    return 1
-
-
-def dwojka():
-    return 2
+def divide(liczba_pierwsza: int, liczba_druga: int) -> float:
+    """Function printing divide"""
+    return liczba_pierwsza / liczba_druga
